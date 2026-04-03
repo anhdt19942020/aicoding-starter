@@ -1,0 +1,28 @@
+# Global Codex CLI Configuration
+# Location: ~/.codex/config.toml
+# This is the USER-LEVEL config shared across all projects
+
+[model]
+# Default model for completions
+default = "gpt-4o"  # or "o3", "o4-mini"
+
+[context]
+# Maximum size for AGENTS.md file (in bytes)
+project_doc_max_bytes = 65536  # 64KB - increase if needed
+
+# Fallback filenames if AGENTS.md not found
+project_doc_fallback_filenames = ["AGENTS.md", "TEAM_GUIDE.md", ".agents.md"]
+
+[behavior]
+# Auto-compact sessions when approaching context limit
+auto_compact = true
+
+# Session timeout
+session_timeout = "7d"
+
+[output]
+# Format: "json" or "text"
+format = "text"
+
+# Include reasoning (for o3 model)
+show_reasoning = false

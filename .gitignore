@@ -1,0 +1,54 @@
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+
+# Node (if using JavaScript/TypeScript tooling)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python (if using Python tooling)
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.pytest_cache/
+
+# Local development
+.env
+.env.local
+.env.*.local
+config.local.toml
+
+# Codex local files (user-specific session data)
+.codex/sessions/
+.codex/MEMORY.md
+.codex/*.sqlite
+.codex/*.sqlite-*
+
+# Claude Code local files (user-specific session data)
+.claude/
+CLAUDE.md
+
+# Project-specific local files
+*.local
+.DS_STORE
+
+# Editor backups
+*.bak
+*.tmp
