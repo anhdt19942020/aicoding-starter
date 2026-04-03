@@ -1,25 +1,77 @@
-# Codex How-To
+# AI Development Tools Setup Guide
 
-Structured learning guide for mastering **OpenAI Codex CLI** as an AI-powered development tool.
+Comprehensive guides for **Codex CLI**, **Cursor**, and **Antigravity** — use all three together!
 
-> Similar to [claude-howto](https://github.com/luongnv89/claude-howto) but optimized for Codex CLI
+> Multi-tool guide covering Codex CLI, Cursor IDE, and Antigravity (GitKraken)
+>
+> Similar to [claude-howto](https://github.com/luongnv89/claude-howto) but with support for 3 tools
 
 ## Overview
 
-This repository provides:
-- ✅ Progressive setup templates for multiple tech stacks
-- ✅ AGENTS.md best practices (equivalent to CLAUDE.md)
-- ✅ Project-specific instructions and workflows
-- ✅ Codex CLI configuration patterns
-- ✅ Guides for switching projects efficiently
-- ✅ Integration with MCP (Model Context Protocol) servers
+This repository provides complete setup guides for three AI-powered development tools:
+
+### 🤖 Codex CLI
+- ✅ Installation & configuration
+- ✅ AGENTS.md best practices
+- ✅ Session management
+- ✅ Extended reasoning (o3 model)
+
+### 🎯 Cursor IDE
+- ✅ Installation & setup
+- ✅ CLAUDE.md for Cursor
+- ✅ Code generation (Cmd+K)
+- ✅ Full IDE features
+
+### 📊 Antigravity (GitKraken)
+- ✅ Installation & workflow
+- ✅ ANTIGRAVITY.md git guidelines
+- ✅ Team collaboration
+- ✅ PR management & deployment
+
+### 🎁 Bonus
+- ✅ Project templates (Laravel, NestJS, Next.js)
+- ✅ Integration guides (use all 3 together)
+- ✅ Best practices & patterns
+- ✅ Learning roadmap (2-4 hours to mastery)
+
+## Choose Your Tools
+
+### 1. Codex CLI Only
+Best for: Backend development, complex logic
+```bash
+/INSTALLATION.md → Setup → Start coding
+```
+
+### 2. Cursor Only
+Best for: UI/Component development, full-stack
+```bash
+CURSOR_SETUP.md → Setup → Start coding
+```
+
+### 3. Antigravity Only
+Best for: Git workflows, team collaboration
+```bash
+ANTIGRAVITY_SETUP.md → Setup → Start coding
+```
+
+### 4. All Three Together ⭐ Recommended
+Best for: Complete development experience
+```bash
+1. INSTALLATION.md → Setup Codex CLI
+2. CURSOR_SETUP.md → Setup Cursor
+3. ANTIGRAVITY_SETUP.md → Setup Antigravity
+4. guides/THREE_TOOLS_GUIDE.md → Learn integration
+5. Start developing!
+```
+
+---
 
 ## Quick Start
 
 ### Prerequisites
-- ✅ [Install Codex CLI](./INSTALLATION.md) — Complete setup guide
-- ✅ OpenAI API key configured
 - ✅ Git installed
+- ✅ Choose your tool(s)
+- ✅ Follow installation guide
 
 ### 1. Clone Repository
 ```bash
